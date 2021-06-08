@@ -1,0 +1,36 @@
+footer{
+    background-color: #303030;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+    .button{
+        padding: 10px;
+        border: 2px solid #0182f9;
+        font-size: 12px;
+        color: white;
+        cursor: pointer;
+    }
+    .social{
+        color: #0182f9;
+        display: flex;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+    }
+    li:first-child{
+        padding-left: 20px;
+    }
+    li{
+        list-style: none;
+        padding: 5px;
+        cursor: pointer;
+    }
+    li img{
+        width: 30px;
+    }
+}

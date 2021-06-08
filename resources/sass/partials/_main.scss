@@ -1,0 +1,43 @@
+main{
+    background-color: #1c1c1c;
+    color: #fff;
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .card{
+        width: calc(100% / 6);
+        text-align: center;
+        font-size: 10px;
+        padding: 20px;
+    }
+    .card img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .container-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #0182f9;
+        cursor: pointer;
+    }
+}
+main::after{
+    content: "";
+    display: block;
+    height: 20px;
+    width: 100%;
+    background-color: #0182f9;
+}

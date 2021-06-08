@@ -1,0 +1,144 @@
+/* VARS */
+/* FONT */
+/* DEFAULT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* UTILITIES */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.active {
+  color: #0182f9;
+  border-bottom: 2px solid #0182f9;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+header img {
+  width: 60px;
+}
+header li:first-child {
+  padding-left: 40px;
+}
+header ul {
+  display: flex;
+}
+header li {
+  font-size: 10px;
+  list-style: none;
+  padding-left: 10px;
+}
+header a {
+  padding-bottom: 42px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* MAIN */
+main {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+main .card {
+  width: calc(100% / 6);
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+}
+main .card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+main .container-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+main .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #0182f9;
+  cursor: pointer;
+}
+
+main::after {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 100%;
+  background-color: #0182f9;
+}
+
+/* FOOTER */
+footer {
+  background-color: #303030;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+footer .button {
+  padding: 10px;
+  border: 2px solid #0182f9;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+}
+footer .social {
+  color: #0182f9;
+  display: flex;
+  align-items: center;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+}
+footer li:first-child {
+  padding-left: 20px;
+}
+footer li {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+}
+footer li img {
+  width: 30px;
+}
